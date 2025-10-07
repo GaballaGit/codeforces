@@ -2,10 +2,11 @@
 using namespace std;
 
 #define ll long long
-#define arr array
+#define ar array
 
 int main() {
-	sync_with_stdio(0);
+	ios_base::sync_with_stdio(0);
+	cin.tie(nullptr);
 	int t;
 
 	cin >> t;
