@@ -4,6 +4,7 @@ using namespace std;
 #define ll long long
 #define ar array
 
+#define l(i, n) for(int i = 0; i < n; i++)
 void solve() {
 
 	int n, m, x, y;
@@ -12,13 +13,12 @@ void solve() {
 
 	int laserLoc;
 
-	for (int i = 0; i < n; i++ ){
+	l(i, n)
 		cin >> count;
-	}
 
-	for (int i = 0; i < m; i++ ){
+	l(i, m)
 		cin >> count;
-	}
+	
 
 
 	cout << m+n << "\n";
