@@ -11,7 +11,7 @@ int main() {
 
 	cin >> t;
 	for (int i = 0; i < t; i++) {
-		//cout << "Test case: ", i << ":\n";
+		//cout << "Test case: " << i << ":\n";
 		solve();
 	}
 }
