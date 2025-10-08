@@ -10,7 +10,7 @@ int main() {
 	int t;
 
 	cin >> t;
-	for (int i = 0; i < t; i++) {
+	for (int i = 1; i <= t; i++) {
 		//cout << "Test case: " << i << ":\n";
 		solve();
 	}
